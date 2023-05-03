@@ -2,6 +2,16 @@
 <html>
 <head>
     <title>Hello Git!</title>
+    <style>
+        body {
+            background-image: url('https://top-fon.com/uploads/posts/2023-01/1674663689_top-fon-com-p-fon-dlya-prezentatsii-klaviatura-8.jpg');
+            background-size: cover;
+            color: black;
+            text-align: center;
+            font-size: 3rem;
+            font-family: Arial, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <h1>Hello Git!</h1>
@@ -12,21 +22,21 @@
         <button type="submit">Submit</button>
     </form>
     <script>
-		// Get the input element and the form element
-		var input = document.getElementById("name");
-		var form = document.querySelector("form");
+// Get the input element and the form element
+var input = document.getElementById("name");
+var form = document.querySelector("form");
 
-		// Add an event listener to the form
-		form.addEventListener("submit", function(event) {
-			// Prevent the default form submission behavior
-			event.preventDefault();
+// Add an event listener to the form
+form.addEventListener("submit", function (event) {
+            // Prevent the default form submission behavior
+            event.preventDefault();
 
-			// Get the input value
-			var name = input.value;
+            // Get the input value
+            var name = input.value;
 
-			// Display a welcome message
-			alert("Welcome, " + name + "!");
-		});
+            // Display a welcome message
+            alert("Welcome, " + name + "!");
+});
     </script>
 </body>
 </html>
