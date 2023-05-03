@@ -1,0 +1,15 @@
+C:\Users\Smart\git_project\git_project\bin\Debug\net6.0\git_project.exe
+C:\Users\Smart\git_project\git_project\bin\Debug\net6.0\git_project.deps.json
+C:\Users\Smart\git_project\git_project\bin\Debug\net6.0\git_project.runtimeconfig.json
+C:\Users\Smart\git_project\git_project\bin\Debug\net6.0\git_project.dll
+C:\Users\Smart\git_project\git_project\bin\Debug\net6.0\git_project.pdb
+C:\Users\Smart\git_project\git_project\obj\Debug\net6.0\git_project.csproj.AssemblyReference.cache
+C:\Users\Smart\git_project\git_project\obj\Debug\net6.0\git_project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Smart\git_project\git_project\obj\Debug\net6.0\git_project.AssemblyInfoInputs.cache
+C:\Users\Smart\git_project\git_project\obj\Debug\net6.0\git_project.AssemblyInfo.cs
+C:\Users\Smart\git_project\git_project\obj\Debug\net6.0\git_project.csproj.CoreCompileInputs.cache
+C:\Users\Smart\git_project\git_project\obj\Debug\net6.0\git_project.dll
+C:\Users\Smart\git_project\git_project\obj\Debug\net6.0\refint\git_project.dll
+C:\Users\Smart\git_project\git_project\obj\Debug\net6.0\git_project.pdb
+C:\Users\Smart\git_project\git_project\obj\Debug\net6.0\git_project.genruntimeconfig.cache
+C:\Users\Smart\git_project\git_project\obj\Debug\net6.0\ref\git_project.dll

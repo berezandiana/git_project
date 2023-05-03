@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello Git!</title>
+</head>
+<body>
+    <h1>Hello Git!</h1>
+    <p>This is a simple C# console application that greets the user.</p>
+    <form>
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Submit</button>
+    </form>
+    <script>
+		// Get the input element and the form element
+		var input = document.getElementById("name");
+		var form = document.querySelector("form");
+
+		// Add an event listener to the form
+		form.addEventListener("submit", function(event) {
+			// Prevent the default form submission behavior
+			event.preventDefault();
+
+			// Get the input value
+			var name = input.value;
+
+			// Display a welcome message
+			alert("Welcome, " + name + "!");
+		});
+    </script>
+</body>
+</html>

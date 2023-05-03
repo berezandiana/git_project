@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Git</title>
+</head>
+<body>
+    <h1>Hello Git!</h1>
+
+    <form>
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="welcome-message"></p>
+
+    <script>
+		const form = document.querySelector('form');
+		const nameInput = document.querySelector('#name');
+		const welcomeMessage = document.querySelector('#welcome-message');
+
+		form.addEventListener('submit', (event) => {
+			event.preventDefault();
+			const name = nameInput.value;
+
+			fetch(`/api/greet?name=${name}`)
+				.then(response => response.json())
+				.then(data => {
+					welcomeMessage.textContent = data.message;
+				})
+				.catch(error => {
+					console.error(error);
+				});
+		});
+    </script>
+</body>
+</html>
